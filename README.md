@@ -1,3 +1,8 @@
+# iris_rest_api_admin_template
+
+This project is front-end of iris_rest_api and forked from vue-admin-template(http://panjiachen.github.io/vue-admin-template).
+
+
 # vue-admin-template
 
 English | [简体中文](./README-zh.md)
