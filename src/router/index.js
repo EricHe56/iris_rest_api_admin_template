@@ -46,13 +46,29 @@ export const constantRoutes = [
   {
     path: '/',
     component: Layout,
-    redirect: '/dashboard',
-    children: [{
-      path: 'dashboard',
-      name: 'Dashboard',
-      component: () => import('@/views/dashboard/index'),
-      meta: { title: 'Dashboard', icon: 'dashboard' }
-    }]
+    redirect: '/general_info'
+  },
+
+  {
+    path: '/general_info',
+    component: Layout,
+    redirect: '/general_info/faq_manage',
+    name: 'general_info',
+    meta: { title: '信息管理', icon: 'example' },
+    children: [
+      {
+        path: 'faq_manage',
+        name: 'faq_manage',
+        component: () => import('@/views/faq_manage/index'),
+        meta: { title: 'FAQ管理', icon: 'table' }
+      },
+      {
+        path: 'faq_manage1',
+        name: 'faq_manage1',
+        component: () => import('@/views/faq_manage/index'),
+        meta: { title: 'FAQ管理1', icon: 'table' }
+      }
+    ]
   },
 
   {

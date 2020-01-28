@@ -1,3 +1,9 @@
+# iris_rest_api_admin_template
+
+本项目为iris_rest_api的配套前端模板，fork自vue-admin-template(http://panjiachen.github.io/vue-admin-template)。
+
+
+
 # vue-admin-template
 
 > 这是一个极简的 vue admin 管理后台。它只包含了 Element UI & axios & iconfont & permission control & lint，这些搭建后台必要的东西。
