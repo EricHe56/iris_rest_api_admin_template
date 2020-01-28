@@ -1,6 +1,6 @@
 # iris_rest_api_admin_template
 
-This project is front-end of iris_rest_api and forked from vue-admin-template(http://panjiachen.github.io/vue-admin-template).
+This project is front-end example of iris_rest_api and forked from vue-admin-template(https://github.com/PanJiaChen/vue-admin-template).
 
 
 # vue-admin-template
