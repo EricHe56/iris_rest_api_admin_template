@@ -1,6 +1,6 @@
 module.exports = {
 
-  title: 'iris_rest_api_admin_template',
+  title: 'Demo system',
 
   /**
    * @type {boolean} true | false
